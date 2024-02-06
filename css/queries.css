@@ -209,13 +209,13 @@
   }
 
   .logo-col,
-  .adress-col {
+  .address-col {
     grid-column: span 3;
   }
 
   .nav-col {
     grid-row: 1;
-    grid-column: span;
+    grid-column: span 2;
     margin-bottom: 3.2rem;
   }
 }
@@ -229,8 +229,8 @@
     row-gap: 4.8rem;
   }
 
-  .grid--2cols,
-  .grid--3cols,
+  .grid--2-cols,
+  .grid--3-cols,
   .grid--4-cols {
     grid-template-columns: 1fr;
   }
